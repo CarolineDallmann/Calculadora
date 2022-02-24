@@ -1,0 +1,92 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  margin: 200px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 125, 187),
+    rgb(176, 70, 206) 50%,
+    rgb(127, 125, 253)
+  );
+}
+
+.centralizador {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.distribuicaoDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  height: 50px;
+  width: 60px;
+  margin: 2px;
+  background-color: #c29afa59;
+  border-style: none;
+  color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.226);
+  padding: 0;
+  border: none;
+}
+
+button:focus {
+  outline-color: white;
+  outline-style: outset;
+  outline-width: 0.5px;
+}
+
+#digEnter {
+  height: 104px;
+}
+
+#dig0 {
+  width: 124px;
+}
+#digBackspace svg {
+  width: 20px;
+  height: 13px;
+  margin: 0;
+}
+
+input {
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.699);
+  border-style: none;
+  text-align: right;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 252px;
+  box-sizing: border-box;
+  padding: 0px 5px;
+  font-size: 15px;
+  color: rgb(176, 70, 206);
+}
+
+::-webkit-input-placeholder {
+  color: rgb(176, 70, 206);
+}
+
+input:-moz-placeholder {
+  color: rgb(176, 70, 206);
+}
+
+#inputDeCima {
+  border-radius: 2px 2px 0px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#inputDeBaixo {
+  border-radius: 0px 0px 2px 2px;
+  margin-bottom: 2px;
+  font-size: 30px;
+}
